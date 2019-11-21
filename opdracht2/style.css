@@ -11,5 +11,64 @@ body{
 img{
     width: 200px;
 }
+
+header, footer, main{
+    width: 100%;
+}
+
+header, footer{
+    height: 20%;
+    background-color: #444444;
+}
+
+nav > img{
+    margin: 20px;
+}
+
+main{
+    height: 80%;
+    background-color: crimson;
+}
+
+main > img{
+    width: 400px;
+}
+
+footer > img{
+    border: solid 1px black;
+}
+
+footer ul, nav{
+    display: flex;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+nav > li{
+    text-decoration: none;
+}
+
+nav > ul{
+    list-style-type:none;
+}
+
+div > h1{
+    background-color: lightblue;
+    font-size: 50px;
+}
+
+ul > li{
+    border: 1px dashed black;
+}
+
+h2 ~ h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img ~ ul{
+    list-style-type: circle;
+}
 /* Einde aangeleverde code, laten staan, niet veranderen */
 /* Vul hieronder je eigen code */
